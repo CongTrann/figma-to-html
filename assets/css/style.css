@@ -5,5 +5,75 @@ html {
   font-size: 62.5%;
 }
 body {
+  font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+}
+.main-content {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header {
+  background-color: rgb(234, 235, 231);
+}
+.header.fixed {
+  position: sticky;
+  top: -28px;
+}
+.header .body {
+  display: flex;
+  align-items: center;
+  padding: 36px 0 8px;
+}
+
+ul {
+  display: flex;
+}
+.nav {
+  margin-left: auto;
+}
+.nav a {
+  position: relative;
+  font-size: 1.6rem;
+  color: rgb(187, 184, 184);
+  padding: 8px 21px;
+}
+.nav li.active a,
+.nav a:hover {
+  color: black;
+  /* font-weight: 600; */
+  text-shadow: 1px 0 0 currentColor;
+}
+.nav li.active a::after {
+  position: absolute;
+  left: 21px;
+  bottom: 6px;
+  content: "";
+  width: 12px;
+  height: 2px;
+  border-radius: 1px;
+  background: black;
+  display: block;
+}
+.btn {
+  display: inline-block;
+  min-width: 118px;
+  padding: 0px 16px;
+  line-height: 50px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 24.5px;
+  background: black;
+}
+.btn-sign-up {
+  min-width: 144px;
+}
+.header .action {
+  margin-left: 49px;
 }

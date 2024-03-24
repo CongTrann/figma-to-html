@@ -392,3 +392,51 @@ ul {
   font-style: italic;
   line-height: 1.54; /* 153.846% */
 }
+
+.feartures {
+  padding: 65px;
+  margin-top: 135px;
+}
+.feartures .body {
+  display: flex;
+  justify-content: space-between;
+}
+.feartures .image {
+  display: flex;
+  gap: 30px;
+}
+.feartures .image img {
+  width: 270px;
+  height: 405px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+.feartures .image .anh1 {
+  margin-top: 34px;
+}
+.feartures .content {
+  display: flex;
+  width: 43%;
+  flex-direction: column;
+  justify-content: center;
+}
+.feartures .content h2 {
+  color: #171100;
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.26; /* 126.316% */
+  letter-spacing: -0.76px;
+}
+.feartures .content .desc {
+  color: #5f5b53;
+  font-size: 1.6rem;
+  line-height: 1.75; /* 175% */
+  margin-top: 16px;
+}
+.feartures .cta-btn {
+  margin-top: 32px;
+  width: 137px;
+  height: 50px;
+  border-radius: 26px;
+  background: var(--primary-color);
+}
